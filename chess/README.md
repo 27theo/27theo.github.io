@@ -3,4 +3,4 @@
 One-dimensional chess, a React web app.
 
 Rules:
-https://www.youtube.com/watch?v=nBoQnTRCU18
+[![One-dimensional chess rules](https://img.youtube.com/vi/nBoQnTRCU18/0.jpg)](https://img.youtube.com/vi/nBoQnTRCU18/0.jpg)
