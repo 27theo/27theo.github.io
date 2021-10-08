@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+#root {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #333333;
+    padding-top: 20px;
+}
+
+#m {
+    color: #aaaaaa;
+    font-size: 80%;
+    vertical-align: 1%;
+}
+
+#c {
+    color: #8043b2;
+}
+
+table {
+    border-spacing: 0;
+    max-width: 75%;
+}
+
+td {
+    padding: 2%;
+    width: 10%;
+    height: 10%;
+}
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dot {
+    display: block;
+    opacity: 0.7;
+    width: 35%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.dotDiv {
+    position: relative;
+}
+
+.fdot {
+    display: block;
+    opacity: 0.7;
+    width: 35%;
+    height: auto;
+    margin: auto auto auto auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 69;
+}
+
+#dsqr { background-image: url(img/Rb.png); }
+
+#dash {
+    margin-top: 3%;
+    padding: 7px 5px 5px 7px;
+    height: 0;
+    width: 2%;
+    padding-bottom: 2%;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+#rebutton {
+    margin-top: 3%;
+    text-align: center;
+    width: 30px;
+    height: auto;
+}
+
+#warning {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 120%;
+    color: orange;
+    padding-top: 3%;
+}
+
+#win {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 120%;
+    color: green;
+    padding-top: 3%;
+}
+
+#credits {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #4a994c;
+    position: absolute;
+    bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #8043b2;
+}
+
+@media screen and (max-width: 420px) {
+    #title {
+        font-size: 100%;
+    }
+    #credits {
+        font-size: 70%;
+    }
+    table {
+        max-width: 100%;
+    }
+    #warning, #win {
+        font-size: 90%;
+    }
+}
